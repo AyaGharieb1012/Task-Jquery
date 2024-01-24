@@ -1,0 +1,154 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  height: 10000px;
+}
+:root{
+  --main-color:rgba(214,46,51,0.6)
+  --main-font:
+}
+#home{
+  /*width: 100%;*/
+  height: 100vh;
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center center;
+  color: white;
+  background-attachment: fixed;
+  position: relative;
+}
+#home .home-layer{
+  background-color:rgba(214,46,51,0.6);
+  width: 100%;
+  height: 100vh;
+  position: absolute; 
+}
+
+a{
+  text-decoration: none;
+}
+#home .openNav{
+  /* background-color: #111; */
+  position: fixed;
+  top: 350px;
+    left: 30px;
+    z-index: 9999;
+
+}
+#home #leftMenu
+{
+    height: 100%;
+   width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+     background-color: #111 ;  
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+#home #leftMenu a:hover {
+  color: #D62E33;
+}
+.sidenav a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+
+
+#count {
+  height:100vh;
+  width: 100%;
+  background-image: url(../images/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center center;
+  color: white;
+}
+#count .count-layer{
+background-color:rgba(214,46,51,0.6);
+  width: 100%;
+  height: 100vh;
+}
+#count .countDown{
+  width: 300px;
+  height: 300px;
+  border: 3px solid  whitesmoke;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*seconed section*/
+
+#sliderDown
+{
+    margin: 100px auto;
+    width: 50%;
+    
+}
+#sliderDown h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+#sliderDown .inner
+{
+    padding: 10px;
+    background-color: #ccc;
+     display: none; 
+}
+#sliderDown .first{
+    display:block;
+}
+/* section contact*/
+#contact .social-icon .icon1{
+  margin-right: 20px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    color: #777;
+}
+.selected{
+  background-color: #D62E33;
+  color: white;
+}
+#contact .col-md-6  form span{
+  color:#D62E33;
+  font-size: 35;
+  font-weight: 300;
+}
+#contact .col-md-6 .special{
+  color: #D62E33;
+}
+#contact .col-md-6  p{
+  color: #777;
+  font-size: 16px;
+}
+.btn{
+  background-color: #D62E33;
+  color: #ffff;
+  border-radius: 0;
+  display: block;
+}
+
+
+
+
+
+
+
